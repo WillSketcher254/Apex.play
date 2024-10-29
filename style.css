@@ -1,0 +1,150 @@
+body{
+    padding: 0;
+    margin: 0;
+    min-width: 100vh;
+    min-height: 100vh;
+    background: linear-gradient(0deg,  rgb(36, 36, 36), rgb(109, 109, 109));
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+}
+.searching{
+    background: rgb(24, 23, 23);
+    padding: 25px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+
+}
+.searching input{
+    font-size: 20px;
+    padding: 3px;
+    outline: none;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+}
+.searching button{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+}
+.searching button:hover{
+    cursor: pointer;
+    background: rgb(175, 175, 234);
+}
+.image-container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,0.4fr));
+    margin: 10px auto;
+    place-content: center;
+}
+
+.image-container img{
+    border-radius: 10px;
+    width: 200px;
+}
+
+.black-back{
+    background: rgb(23, 23, 23);
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.black-back:hover{
+    background: rgb(61, 40, 40);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgb(78, 78, 78);
+    border-radius: 40px;
+}
+
+.image-container a{
+    text-decoration: none;
+    color: wheat;
+    transition: 0.5s;
+    position: relative;
+    right: 0;
+}
+
+.image-container a:hover{
+    cursor: default;
+    color: plum;
+}
+
+.side-bar{
+    font-size: 17px;
+    text-align: left;
+    width: 80%;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.content{
+    padding: 10px;
+    padding-top: 100px;
+    background: linear-gradient(rgba(40, 40, 40,0.02),rgb(74, 113, 117));
+}
+.content button{
+    color: black;
+    background: rgb(248, 48, 48);
+    font-size: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.content button:hover{
+    background: rgb(255, 187, 0);
+}
+
+.Homing{
+    padding: 5px;
+    background: rgb(42, 42, 42);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.Homing button{
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 3px;
+    background: rgb(64, 245, 146);
+    cursor: pointer;
+}
+.m-home{
+    background: url(back.jpeg) fixed;
+    background-size: 100%;
+}
+.mhome{
+    background: rgba(0, 0, 0, 0.93);
+    padding: 20px;
+    
+}
+.mhome h3{
+    text-align: left;
+    padding-left: 20px;
+    color: aqua;
+    text-decoration: underline;
+    
+}
+.mhome p{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+}
+ul li{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+}
